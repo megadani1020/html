@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios Daniel Miguel Mesa Mejías</title>
+</head>
+<body>
+    <form action="#" method="post" >
+        <p>Nombre: <input type="text" name="nombre" placeholder="Nombre" ></p>
+        <p>Apellidos: <input type="text" name="apellido" size="15" maxlength="15" placeholder="Apellido"></p>
+        <p>Edad: <select name="Edad">
+            <option value="1">1-10</option>
+            <option value="2">11-20</option>
+            <option value="3">21-30</option>
+            <option value="4">31-40</option>
+        </select>
+        </p>
+        <p>Sexo: 
+            <input type="radio" name="sexo" value="hombre">Hombre 
+            <input type="radio" name="sexo" value="mujer">Mujer</p>
+        <p>DNI <input type="text" placeholder="__.___.___._" size="9" maxlength="9"></p>
+        <p>Aficiones:  
+            <input type="checkbox" name="seriestv" value="seriestv"> Series TV
+            <input type="checkbox" name="musica" value="musica"> Música
+            <input type="checkbox" name="deportes" value="deportes"> Deportes
+            <input type="checkbox" name="videojuegos" value="videojuegos"> Videojuegos 
+        </p>
+        <p>Nacionalidad: 
+                <input type="radio" name="nacionalidad" value="española" checked >Española 
+                <input type="radio" name="nacionalidad" value="otros">Otros</p>
+        <p>
+           <textarea name="observaciones" id="" cols="40" rows="4" placeholder="Observaciones..."></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </p>
+    </form>
+</body>
+</html>

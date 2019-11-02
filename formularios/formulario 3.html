@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario 3</title>
+</head>
+<body>
+    <h2>Información sobre el producto</h2>
+    <fieldset>
+        <legend>Datos básicos</legend>
+        <form action="" method="POST">
+            <p>Nombre</p>
+                <input type="text" size="40" maxlength="100">
+            <p>Descripción</p>
+                <textarea name="descripcion" id="" cols="50" rows="7"></textarea>
+            <p>Foto <input type="photo" name="" id=""><input type="submit" value="Elegir..."></p>
+            <p><input type="checkbox">Añadir contador de visitas</p>    
+    </fieldset>
+    <fieldset>
+        <legend>Datos económicos</legend>
+        <p>Precio <input type="text" size="3"> € &ThickSpace; &ThickSpace; &ThickSpace; Impuestos
+            <select name="impuestos" id="">
+                <option value="1">4%</option>
+                <option value="2">7%</option>
+                <option value="3">16%</option>
+                <option value="4">25%</option>
+            </select>
+        </p>
+        <p>Promoción</p>
+        <p><input type="radio" name="promocion" value="ninguno" checked>Ninguno</p>
+        <p><input type="radio" name="promocion" value="transporte gratuito">Transporte gratuito</p>
+        <p><input type="radio" name="promocion" value="descuento 5%">Descuento 5%</p>
+    </fieldset>
+    </form>
+</body>
+</html>
